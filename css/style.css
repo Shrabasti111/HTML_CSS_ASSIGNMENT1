@@ -1,0 +1,197 @@
+*, html {
+  margin:0;
+  padding:0;  
+}
+
+
+ 
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px; /*setting the line-height and height both to 40px so that the text is centered vertically on each line*/
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+ 
+li:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a {
+    margin-left: 60px;
+    border-right: 0.8px #ccc solid;
+    padding-right: 10px;
+}
+
+.home {
+  
+  border-left: 0.8px #ccc solid;
+  
+}
+
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+ 
+  .title {
+    
+      width: 500px;
+      margin: 20px auto;
+      text-align : center;
+      position: relative;
+      color: #585A7A;
+  }
+
+  .logo {
+      height: 50px;
+      width: 100px;
+      background-color: none;
+      float : left;
+      margin-top: 0;
+      position: relative;
+      top: -60px;
+  }
+
+.parallax-container1 {
+  
+  
+  background-image: url("../img/music.jpeg"); 
+  height: 700px; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+    
+}
+*/
+#hero{
+  width: 1500px;
+}
+
+.parallax-container2 {
+  background-image: url("../img/music3.jpeg");
+  height: 700px; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax-container1 .parallax-container2 {
+    background-attachment: scroll;
+  }
+}
+
+
+.hero-section {
+  text-align: center;
+  font-family: 'Swanky and Moo Moo', cursive;
+  font-size: 30px;
+  letter-spacing: 2px;
+  
+}
+
+.container {
+  display: inline-flex;
+  width: 1500px;
+  height: 500px;
+}
+
+.item {
+  width: 400px;
+  height: 400px;
+  padding-right: 30px;
+  padding-left: 50px;
+}
+
+
+footer{
+  background-color: #95B43A;
+  height: 250px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  margin-top: 0;
+  background-color: #C1C4A8;
+  height: 70px;
+
+}
+
+
+
+.footer1 {
+  color: #601CB2;
+  margin: 20px 20px;
+  padding: 10px 10px;
+  font-size: 40px;
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+}
+
+.footer2 {
+  float: right;
+  position: relative;
+  bottom: 50px;
+}
+
+.footer3 {
+  float: left;
+}
+
+.lowerText {
+  color: #484C4A;
+}
+
+.socialImg {
+  height: 35px;
+  width: 35px;
+  margin-top: 10px;
+}
+
+.socialText {
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
+  font-weight: 1.2em;
+  color: #A23042;
+  margin: 0px 5px;
+  padding: 2px;
+}
+
+#container2 {
+  width: 1470px;
+  height: 600px;
+  background-color: #868569;
+  margin: 10px 20px;
+}
+
+.quote_title {
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  color: #334D3D;
+  text-align: center;
+}
+
+.container1{
+  display: inline-flex;
+  
+}
